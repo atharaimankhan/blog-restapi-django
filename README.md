@@ -14,15 +14,15 @@
 3. phpmyadmin (phpmyadmin for the easy access to the database) URL: localhost:8081, username: root, password: root
 
 ### Django Admin:
-docker-compose run app python manage.py createsuperuser
-create admin user and go to localhost:8000/admin and login
+1. docker-compose run app python manage.py createsuperuser
+2. create admin user and go to localhost:8000/admin and login
 
 ### for Migrations Run:
-docker-compose run app python manage.py makemigrations
-docker-compose run app python manage.py migrate
+1. docker-compose run app python manage.py makemigrations
+2. docker-compose run app python manage.py migrate
 
 ### Run MySQL Scripts:
-open phpmyadmin
-goto SQL tab and run all the scripts available in mysql_scripts folder
+1. open phpmyadmin
+2. goto SQL tab and run all the scripts available in mysql_scripts folder
 
 
